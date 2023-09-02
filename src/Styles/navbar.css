@@ -1,0 +1,27 @@
+.navbar {
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #3984e0;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+.navbar h2 {
+  width: fit-content;
+  padding: 2px;
+  color: aliceblue;
+  text-align: center;
+}
+.navbar button {
+  background-color: transparent;
+  color: #f0ebeb;
+  border: 2px solid #012bfd;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.navbar button:hover {
+  background-color: #012bfd;
+  border: 2px solid #01d3fd;
+  color: white;
+}

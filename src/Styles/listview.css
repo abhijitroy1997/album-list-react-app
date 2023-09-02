@@ -1,0 +1,50 @@
+.list {
+  width: 30%;
+  background-color: rgb(108, 62, 235);
+  margin-bottom: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  border-radius: 18px 2px 18px 2px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list h3 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+.button-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.update-btn {
+  border: 0px;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.update-btn:hover {
+  color: rgb(13, 246, 40);
+}
+.delete-btn {
+  cursor: pointer;
+  font-size: medium;
+  border: 0px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: aliceblue;
+}
+.delete-btn:hover {
+  color: rgb(255, 49, 49);
+}
+.list:hover {
+  background-color: rgb(43, 3, 153);
+  color: aqua;
+}

@@ -1,0 +1,9 @@
+.albums-list {
+  width: 100%;
+  margin: auto;
+  padding-top: 73px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 8px;
+}

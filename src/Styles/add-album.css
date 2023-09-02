@@ -1,0 +1,26 @@
+.addalbum-container {
+  color: white;
+  width: 350px;
+  margin: auto;
+  padding-top: 100px;
+}
+.addalbum-form {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: rgb(33, 172, 214);
+  color: white;
+  border-radius: 8px;
+  margin: auto;
+}
+.addalbum-form button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: rgb(65, 133, 5);
+  color: white;
+  border-radius: 8px;
+  margin: auto;
+}
+.addalbum-form button:hover {
+  color: aliceblue;
+  background-color: rgb(29, 99, 190);
+}

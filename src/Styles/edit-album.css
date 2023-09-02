@@ -1,0 +1,28 @@
+.update-album {
+  width: 350px;
+  margin: auto;
+  padding-top: 73px;
+  color: white;
+}
+.form-container {
+  background-color: #062b91;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 18px 2px 18px 2px;
+}
+.inp-container {
+  margin: 10px;
+  padding: 10px;
+}
+.form-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: rgb(33, 172, 214);
+  color: white;
+  border-radius: 8px;
+  margin: auto;
+}
+.form-container button:hover {
+  color: aliceblue;
+  background-color: rgb(76, 193, 65);
+}
