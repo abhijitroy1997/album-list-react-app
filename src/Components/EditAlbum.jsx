@@ -20,7 +20,7 @@ const EditAlbum = (props) => {
 
   return (
     <>
-      <Navbar exact path="/album-list-react-app" page="Home" />
+      <Navbar path="/" page="Home" />
       <div className="update-album">
         <div className="form-container">
           <h4>Title : {props.album.title}</h4>
