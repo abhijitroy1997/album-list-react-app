@@ -122,9 +122,10 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <Routes>
+        <Routes basename="/album-list-react-app">
           <Route
-            path="/"
+            exact
+            path="/album-list-react-app"
             element={
               <AlbumsList
                 albums={this.state.albums}
